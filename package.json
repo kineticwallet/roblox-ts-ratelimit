@@ -1,8 +1,9 @@
 {
-	"name": "@rbxts/roblox-ts-package-template",
-	"version": "1.0.0",
+	"name": "@rbxts/ratelimit",
+	"version": "1.0.1-ts.0",
+	"description": "A port of red-blox's Ratelimit package for the roblox-ts ecosystem.",
 	"main": "dist/init.lua",
-	"keywords": [],
+	"keywords": ["ratelimit", "throttle", "debounce", "check", "delay"],
 	"author": "kineticwallet",
 	"license": "MIT",
 	"types": "dist/index.d.ts",
@@ -19,8 +20,5 @@
 		"rbxts-transformer-services": "^1.1.1",
 		"roblox-ts": "^2.3.0",
 		"typescript": "=5.2.2"
-	},
-	"dependencies": {
-		"@rbxts/services": "^1.5.4"
 	}
 }
